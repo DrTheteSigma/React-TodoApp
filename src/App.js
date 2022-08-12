@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useEffect } from "react"
 import AddTask from "./components/AddTask"
 
+// default todos
 const openingTaks = [{id:1,text:"Meeting at USF",day:"Feb 6th at 1:30pm", reminder:true}, {id:2,text:"Get cat food",day:"Feb 7th at 2:30pm", reminder:true}, {id:3,text:"eat food",day:"Feb 8th at 3:30pm", reminder:false},
 {id:4,text:"Meeting at Tampa",day:"Feb 10th at 5:30pm", reminder:false}
 ]
